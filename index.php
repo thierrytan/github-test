@@ -2,7 +2,7 @@
 require_once 'modele/Cutilisateur.php';
 
 session_start();
-
+//SESSSION
 if (isset($_POST['login'])) {
     $login = $_POST['login'];
     $pass = sha1($_POST['password']);
