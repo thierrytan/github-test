@@ -1,7 +1,6 @@
 <?php
 require_once 'modele/Cutilisateur.php';
 
-//SESSION
 session_start();
 
 if (isset($_POST['login'])) {
